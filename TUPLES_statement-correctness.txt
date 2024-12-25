@@ -1,0 +1,34 @@
+# TUPLES: (statement, correctness)
+
+# humanoid
+true_hum_tup = [[('The knight was left of the witch.', True), ('The witch was right of the knight.', True), ('The knight was left of the mummy.', True), ('The mummy was right of the knight.', True), ('The witch was left of the mummy.', True), ('The mummy was right of the witch.', True)], [('The robot was left of the santa.', True), ('The santa was right of the robot.', True), ('The robot was left of the vampire.', True), ('The vampire was right of the robot.', True), ('The santa was left of the vampire.', True), ('The vampire was right of the santa.', True)]]
+
+false_hum_tup = [[('The knight was right of the witch.', False), ('The witch was right of the knight.', False), ('The knight was right of the mummy.', False), ('The mummy was right of the knight.', False), ('The witch was right of the mummy.', False), ('The mummy was right of the witch.', False)], [('The robot was right of the santa.', False), ('The santa was right of the robot.', False), ('The robot was right of the vampire.', False), ('The vampire was right of the robot.', False), ('The santa was right of the vampire.', False), ('The vampire was right of the santa.', False)]]
+    
+
+
+    
+# things
+true_thi_tup = [[('The chair was left of the computer.', True), ('The computer was right of the chair.', True), ('The chair was left of the cup.', True), ('The cup was right of the chair.', True), ('The computer was left of the cup.', True), ('The cup was right of the computer.', True)], [('The key was left of the lamp.', True), ('The lamp was right of the key.', True), ('The key was left of the scissor.', True), ('The scissor was right of the key.', True), ('The lamp was left of the scissor.', True), ('The scissor was right of the lamp.', True)]]    
+    
+false_thi_tup = [[('The chair was right of the computer.', False), ('The computer was right of the chair.', False), ('The chair was right of the cup.', False), ('The cup was right of the chair.', False), ('The computer was right of the cup.', False), ('The cup was right of the computer.', False)], [('The key was right of the lamp.', False), ('The lamp was right of the key.', False), ('The key was right of the scissor.', False), ('The scissor was right of the key.', False), ('The lamp was right of the scissor.', False), ('The scissor was right of the lamp.', False)]]
+
+
+
+
+# vehicles
+true_veh_tup = [[('The plane was left of the bicycle.', True), ('The bicycle was right of the plane.', True), ('The plane was left of the boat.', True), ('The boat was right of the plane.', True), ('The bicycle was left of the boat.', True), ('The boat was right of the bicycle.', True)], [('The bus was left of the car.', True), ('The car was right of the bus.', True), ('The bus was left of the train.', True), ('The train was right of the bus.', True), ('The car was left of the train.', True), ('The train was right of the car.', True)]]
+
+false_veh_tup = [[('The plane was right of the bicycle.', False), ('The bicycle was right of the plane.', False), ('The plane was right of the boat.', False), ('The boat was right of the plane.', False), ('The bicycle was right of the boat.', False), ('The boat was right of the bicycle.', False)], [('The bus was right of the car.', False), ('The car was right of the bus.', False), ('The bus was right of the train.', False), ('The train was right of the bus.', False), ('The car was right of the train.', False), ('The train was right of the car.', False)]]
+
+
+
+
+# animals
+true_ani_tup = [[('The cat was left of the crocodile.', True), ('The crocodile was right of the cat.', True), ('The cat was left of the giraffe.', True), ('The giraffe was right of the cat.', True), ('The crocodile was left of the giraffe.', True), ('The giraffe was right of the crocodile.', True)], [('The snail was left of the turtle.', True), ('The turtle was right of the snail.', True), ('The snail was left of the zebra.', True), ('The zebra was right of the snail.', True), ('The turtle was left of the zebra.', True), ('The zebra was right of the turtle.', True)]]
+
+false_ani_tup = [[('The cat was right of the crocodile.', False), ('The crocodile was right of the cat.', False), ('The cat was right of the giraffe.', False), ('The giraffe was right of the cat.', False), ('The crocodile was right of the giraffe.', False), ('The giraffe was right of the crocodile.', False)], [('The snail was right of the turtle.', False), ('The turtle was right of the snail.', False), ('The snail was right of the zebra.', False), ('The zebra was right of the snail.', False), ('The turtle was right of the zebra.', False), ('The zebra was right of the turtle.', False)]]
+
+
+
+
